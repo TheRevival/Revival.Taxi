@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 Foxterino Flamarino
+Copyright (c) 2021 binary robot
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
