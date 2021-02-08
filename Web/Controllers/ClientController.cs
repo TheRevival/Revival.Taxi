@@ -18,12 +18,5 @@ namespace Web.Controllers
             _logger = logger;
             _clientService = clientService;
         }
-        
-        [HttpGet("api/clients")]
-        public async Task<ActionResult<IEnumerable<Client>>> GetClients()
-        {
-            var clients = await _clientService.GetClients();
-            return Ok(clients);
-        }
     }
 }

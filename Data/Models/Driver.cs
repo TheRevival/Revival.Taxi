@@ -15,6 +15,7 @@ namespace Data.Models
         public string Email { get; set; }
         
         // TODO: Add some rank system of drivers. [Probably, via fk to order and client, that will give some feedback by ranking(in order) lol].
+        public long TransportId { get; set; }
         public Transport Transport { get; set; }
     }
 }
