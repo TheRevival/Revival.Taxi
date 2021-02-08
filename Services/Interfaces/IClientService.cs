@@ -6,6 +6,6 @@ namespace Services.Interfaces
 {
     public interface IClientService
     {
-        Task<IEnumerable<Client>> GetClients();
+        
     }
 }

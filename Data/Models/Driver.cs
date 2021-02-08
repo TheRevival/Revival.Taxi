@@ -13,6 +13,8 @@ namespace Data.Models
         public string LastName { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
+        
+        // TODO: Add some rank system of drivers. [Probably, via fk to order and client, that will give some feedback by ranking(in order) lol].
         public Transport Transport { get; set; }
     }
 }

@@ -15,12 +15,5 @@ namespace Services.Implementations
         {
             _db = db;
         }
-
-        public async Task<IEnumerable<Client>> GetClients()
-        {
-            var clients = await _db.Clients.ToListAsync();
-            
-            return clients;
-        }
     }
 }

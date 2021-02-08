@@ -4,6 +4,6 @@ namespace Data.Models
     {
         public long Id { get; set; }
         public Driver Driver { get; set; }
-        public  TransportClass Class { get; set; }
+        public  TransportType Type { get; set; }
     }
 }
