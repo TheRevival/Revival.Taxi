@@ -15,5 +15,15 @@ namespace Services.Implementations
         {
             _db = db;
         }
+
+        public Task CreateTripAsync(Order order)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task CancelTripAsync(long tripId)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
